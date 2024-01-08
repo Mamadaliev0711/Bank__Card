@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1 {
+    width: 400px;
+  display: flex;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Genos";
+}
+.main {
+  display: flex;
+  font-size: 8px;
+  gap: 30px;
+  margin-right: 120px;
+  padding-top: 20px;
+  margin-left: 10px;
+}
+.main a {
+  font-size: 15px;
+}
+.btn-group {
+  border: 1px solid white;
+  margin-left: 20px;
+  padding-top: 20px;
+  width: 500px;
+}
+
+.section2_btn {
+  border-radius: 35px;
+  padding: 10px 12px;
+  width: 100%;
+  height: 52px;
+  color: #31b1c2;
+  font-size: 16px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.btn1:hover {
+  background: #0e5bd6;
+  color: #76bee7;
+}
+.header {
+  width: 650px;
+  height: 400px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.headre__card{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+input,
+input::-webkit-input-placeholder {
+  font-size: 16px;
+  line-height: 3;
+}
+
+.header .card::after {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 200px;
+  background-color: #3641d3;
+  right: -30px;
+  top: -30px;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.header .card::before {
+  position: absolute;
+  content: "";
+  width: 300px;
+  height: 300px;
+  background-color: #3641d3;
+  left: -70px;
+  top: -70px;
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+.header .forms {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header .forms input {
+  height: 40px;
+  width: 100%;
+  font-size: 18px;
+  border: 2px solid #eee;
+  border-radius: 4px;
+  text-indent: 10px;
+  margin-top: 4px;
+}
+
+.header .forms input:focus {
+  outline: none;
+}
+
+.input-items span {
+  font-size: 14px;
+  margin-left: 2px;
+}
+
+.input-items {
+  margin-bottom: 10px;
+}
+
+.one-line {
+  width: 350px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.one-line label {
+  margin-top: 12px;
+}
+.month__button {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid #eee;
+  margin-top: 4px;
+}
+.one-line .input-items:nth-child(1) {
+  margin-right: 10px;
+}
+
+.input-buttons {
+  width: 100%;
+}
+
+.input-buttons a {
+  width:  205px;
+  height: 45px;
+  border-radius: 25px;
+  color: #e5f3f9;
+  background-color: #0d0d9d;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__cvv {
+  width: 50px;
+  position: relative;
+  transform: translateX(370px)translateY(-30px);
+}
+.card__cvv--text {
+  position: absolute;
+  transform: translateY(15px);
+}
+.card__cvv--input {
+  /* position: absolute; */
+  transform: translateX(30px);
+}
+.section2_btn {
+  border: 1px solid #ffffff;
+}
+.year__button {
+  height: 20px;
+}
